@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    bus:
+      trace:
+        enabled: true
+    stream:
+      kafka:
+        binder:
+          brokers: 192.168.29.210
+          defaultBrokerPort: 9092
+          zkNodes: 192.168.29.210
+          defaultZkPort: 2181
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9999/eureka/
+server:
+  port: 10010
+management:
+  security:
+    enabled: false
+myname: huaihkiss
