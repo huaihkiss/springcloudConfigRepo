@@ -4,4 +4,4 @@ eureka:
       defaultZone: http://127.0.0.1:9999/eureka/
 server:
   port: 10010
-myname: huaihkiss666
+myname: huaihkiss
